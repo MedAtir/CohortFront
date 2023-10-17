@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 7rem;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#left-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 35%;
+    height: 1.6rem;
+}
+
+#right-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 1.6rem;
+}
+
+#search{
+    border-color: rgb(209, 206, 206);
+    border-radius: 5px;
+    border-style: solid;
+    height: 1.3rem;
+}
+
+button:not(#nav-up):not(#nav-in), input[type=submit]:not(#nav-up):not(#nav-in):not(#form-sub){
+    background: none;
+    border: none;
+}
+
+#navlogo{
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+#nav-in{
+    border-radius: 3px;
+    background-color: rgb(239, 239, 239);
+    height: 1.31rem;
+    border-color: rgb(231, 222, 222);
+    height: 100%;
+    width: 3.5rem;
+}
+
+
+#nav-up{
+    border-color:rgb(155, 232, 122) ;
+    box-shadow: none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 255, 113);
+    height:100%;
+    width: 3.5rem;
+}
+
+#main{
+    background-image: url(../imgs/githubGroot.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    overflow: hidden;
+}
+
+#hero-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+#form-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+#hero-h1, #hero-p{
+    color: white;
+}
+
+#form-sub{
+    height: 8vh;
+    width: 17vw;
+    background-color: rgb(156, 255, 113);
+    color: white;
+}
+
+#form-div p{
+    color: white;
+    margin: 10px;
+}
+
+#main #backimg{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
